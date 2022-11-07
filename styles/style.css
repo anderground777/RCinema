@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('DarkerGrotesque-Regular')
+        url('../fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('DarkerGrotesque-SemiBold')
+        url('../fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: url('../fonts/DarkerGrotesque-Medium.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-Regular.woff2') format('woff2'),
+         url('../fonts/JosefinSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: #121521;
+    color: #fff;
+    width: 1920px;
+    margin: auto;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+.page {
+    
+}
+
+.container {
+   
+    width: 1242px;
+}
+.mainmenu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
