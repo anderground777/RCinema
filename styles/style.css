@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Darker Grotesque';
     src: local('DarkerGrotesque-Regular')
         url('../fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
@@ -34,7 +34,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 
 body {
@@ -42,8 +42,8 @@ body {
     background-color: #121521;
     color: #fff;
     width: 1920px;
-    margin: auto;
-
+    padding: 0;
+    margin: 0;
 }
 
 .d-flex {
@@ -53,19 +53,128 @@ body {
 .d-grid {
     display: grid;
 }
-.page {
-    
-}
 
 .container {
-   
-    width: 1242px;
+   width: 1242px;
+   margin: auto;
 }
 .mainmenu {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
+a, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.page {
+}
+.page-header {
+    margin-top: 56px;
+    margin-bottom: 58px;
+}
+
+.logo {
+    margin-right: 413px;
+}
+.mainmenu {
+   width: 706px;
+}
+.mainmenu__item {
+}
+.page-section {
+    margin-bottom: 119px;
+}
+.page-section__header {
+   margin-top: 164px;
+   
+}
+.page-section__uppercase {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B2B2D3;
+}
+.page-section_head {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    width: 455px;
+}
+.page-section__text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #B2B2D3;
+}
+.page-section__button {
+}
+.page-section__button--purple {
+    background: #40467C;    
+    padding: 16px 40px;
+    text-transform: uppercase;
+    margin-right: 30px;    
+}
+.page-section__button--transparent {
+    padding: 16px 40px;
+    text-transform: uppercase;    
+    border: 2px solid #FFFFFF;
+}
+.page-section__img {
+   position: relative;
+   right: -100px;
+}
+.openair-film {
+    margin-bottom: 126px;
+}
+.wrapper {
+}
+.openair-film__videobg {
+    
+}
+.openair-film__ico {
+    position: absolute;
+
+}
+.openair-film__description {
+    background: #1B213A;
+    width: 680px;
+        
+}
+.openair-film__head {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+    width: 427px;
+    margin-left: 30px;
+    margin-bottom: 0;
+
+}
+.openair-film__wraper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.openair-film__item {
+    width: 273px;
+}
+.item__head {
+    font-family: 'Darker Grotesque';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+}
+.item__text {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #B2B2D3;
 }
