@@ -80,6 +80,7 @@ a, a:visited {
 }
 .mainmenu {
    width: 706px;
+   padding-left: 0;
 }
 .mainmenu__item {
 }
@@ -98,7 +99,7 @@ a, a:visited {
     text-transform: uppercase;
     color: #B2B2D3;
 }
-.page-section_head {
+.page-section__head {
     font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 60px;
@@ -125,9 +126,11 @@ a, a:visited {
     border: 2px solid #FFFFFF;
 }
 .page-section__img {
+   margin-left: 75px;
    position: relative;
-   right: -100px;
-}
+   right: 0;
+   
+}   
 .openair-film {
     margin-bottom: 126px;
 }
