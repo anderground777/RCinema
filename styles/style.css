@@ -133,14 +133,19 @@ a, a:visited {
 }   
 .openair-film {
     margin-bottom: 126px;
+    position: relative;
 }
 .wrapper {
 }
 .openair-film__videobg {
-    
+    opacity: 0.6;
 }
 .openair-film__ico {
     position: absolute;
+    left: 32%;
+    top: 45%;
+    padding: 18px 16px 18px 24px;
+    background-color: #40467C;
 
 }
 .openair-film__description {
