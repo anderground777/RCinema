@@ -225,4 +225,26 @@ a, a:visited {
     line-height: 130%;
     color: #B2B2D3;
 }
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: #1B213A;
+    color: #fff;
+}
+
+.active, .accordion:hover {
+    
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
  
