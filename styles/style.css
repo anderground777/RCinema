@@ -76,7 +76,7 @@ a, a:visited {
 }
 
 .logo {
-    margin-right: 413px;
+    margin-right: 400px;
 }
 .mainmenu {
    width: 706px;
@@ -130,18 +130,22 @@ a, a:visited {
    position: relative;
    right: 0;
    
-   
 }   
 .openair-film {
     margin-bottom: 126px;
+    position: relative;
 }
 .wrapper {
 }
 .openair-film__videobg {
-    
+    opacity: 0.6;
 }
 .openair-film__ico {
     position: absolute;
+    left: 32%;
+    top: 45%;
+    padding: 18px 16px 18px 24px;
+    background-color: #40467C;
 
 }
 .openair-film__description {
@@ -182,3 +186,4 @@ a, a:visited {
     line-height: 130%;
     color: #B2B2D3;
 }
+ 
