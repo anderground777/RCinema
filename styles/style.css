@@ -81,17 +81,25 @@ a, a:visited {
 .mainmenu {
    width: 706px;
    padding-left: 0;
+   
 }
-.mainmenu__item {
+.mainmenu__item a {
+    
+    text-decoration: none;
+    
 }
+
+.mainmenu__item a:hover {
+    color: #5d6eb1;
+  }
 .page-section {
-    margin-bottom: 119px;
+    margin-bottom: 120px;
 }
-.page-section__header {
+.section-cover__header {
    margin-top: 164px;
    
 }
-.page-section__uppercase {
+.section-cover__uppercase {
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
@@ -99,48 +107,73 @@ a, a:visited {
     text-transform: uppercase;
     color: #B2B2D3;
 }
-.page-section__head {
+.section-cover__head {
     font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
     width: 455px;
 }
-.page-section__text {
+.section-cover__text {
     font-weight: 400;
     font-size: 32px;
     line-height: 43px;
     color: #B2B2D3;
 }
-.page-section__button {
+.section-cover__actions  {
 }
-.page-section__button--purple {
-    background: #40467C;    
-    padding: 16px 40px;
+
+.button {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 59px;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 17px;
+    letter-spacing: 0.08em;
+    font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+/* .button:focus {
+    outline: none;
+  } */
+
+.button--primary {
+    background: #40467C;    
     margin-right: 30px;    
 }
-.page-section__button--transparent {
-    padding: 16px 40px;
-    text-transform: uppercase;    
+
+.button--primary:hover {
+    background-color: #51578C;
+}
+.button--secondary {
     border: 2px solid #FFFFFF;
 }
-.page-section__img {
+
+.button--secondary:hover {
+    background-color: #fff;
+    color: #141923;
+}
+.section-cover__img {
    margin-left: 75px;
    position: relative;
-   right: 0;
-   
-}   
-.openair-film {
+   right: 0;   
+}
+
+.benefits {
     margin-bottom: 126px;
     position: relative;
 }
 .wrapper {
 }
-.openair-film__videobg {
+.benefits__videobg {
     opacity: 0.6;
 }
-.openair-film__ico {
+.benefits__ico {
     position: absolute;
     left: 32%;
     top: 45%;
@@ -148,12 +181,12 @@ a, a:visited {
     background-color: #40467C;
 
 }
-.openair-film__description {
+.benefits__description {
     background: #1B213A;
     width: 680px;
         
 }
-.openair-film__head {
+.benefits__head {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -164,13 +197,13 @@ a, a:visited {
     margin-bottom: 0;
 
 }
-.openair-film__wraper {
+.benefits__wrapper {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-left: 30px;
 }
 
-.openair-film__item {
+.benefits__item {
     width: 273px;
 }
 .item__head {

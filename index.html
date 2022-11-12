@@ -9,11 +9,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600&family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon.svg">
+
     <!-- styles -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="page">
+    <!-- header -->
     <header class="page-header">
         <div class="container d-flex">
             <img src="images/logo.svg" alt="Logo" class="logo">
@@ -27,49 +32,57 @@
             </ul>
         </div>
     </header>
-    <section class="page-section">
-        <div class="container d-flex">
-            <div class="page-section__header">
-                <p class="page-section__uppercase">Open-Air Film Experience</p>
-                <h1 class="page-section__head">Rooftop Cinema</h1>
-                <p class="page-section__text">To turn your movie night into an adventure</p>
-                <div class="page-section__button">
-                    <a href="" class="page-section__button--purple">Book a day</a>
-                    <a href="" class="page-section__button--transparent">How it works</a>
+    <!-- контент -->
+    <main>
+        <section class="page-section section-cover">
+            <div class="container d-flex">
+                <div class="section-cover__header">
+                    <p class="section-cover__uppercase">Open-Air Film Experience</p>
+                    <h1 class="section-cover__head">Rooftop Cinema</h1>
+                    <p class="section-cover__text">To turn your movie night into an adventure</p>
+                    <div class="section-cover__actions">
+                        <a href="" class="button button--primary">Book a day</a>
+                        <a href="" class="button button--secondary">How it works</a>
+                    </div>
                 </div>
+                <img src="images/main-banner.jpg" alt="" class="section-cover__img" height="750px">
+            </div>    
+            
+        </section>
+        <section class="benefits">
+            <div class="container d-flex">
+                <div class="wrapper">
+                    <img src="images/video-bg.jpg" alt="background img" class=benefits__videobg>
+                    <a href="#"><img src="images/play_ico.svg" alt="Play" class="benefits__ico"></a>
+                </div>        
+                <div class="benefits__description">
+                    <h3 class="benefits__head">Open-air film experience</h3>
+                    <div class="benefits__wrapper d-grid">
+                        <div class="benefits__item">
+                            <h3 class="item__head">Personal Headphones</h3>
+                            <p class="item__text">Live completely in those movie moments, try to catch them!</p>
+                        </div>
+                        <div class="benefits__item">
+                            <h3 class="item__head">City Views</h3>
+                            <p class="item__text">Our locations immerse you in the city skyline at night</p>
+                        </div>
+                        <div class="benefits__item">
+                            <h3 class="item__head">Chairs & Cozy Blankets</h3>
+                            <p class="item__text">Lean back and relax under the night sky in the hugs of fluffy blanket</p>
+                        </div>
+                        <div class="benefits__item">
+                            <h3 class="item__head">Iconic Movies</h3>
+                            <p class="item__text">Our program is curated with cult films, classics, and new releases</p>
+                        </div>
+                    </div>
+                </div>                
             </div>
-            <img src="images/main-banner.jpg" alt="" class="page-section__img">
-        </div>    
-        
-    </section>
-    <section class="openair-film">
-        <div class="container d-flex">
-            <div class="wrapper">
-                <img src="images/video-bg.jpg" alt="background img" class=openair-film__videobg>
-                <a href="#"><img src="images/play_ico.svg" alt="Play" class="openair-film__ico"></a>
-            </div>        
-            <div class="openair-film__description">
-                <h3 class="openair-film__head">Open-air film experience</h3>
-                <div class="openair-film__wraper d-grid">
-                    <div class="openair-film__item">
-                        <h3 class="item__head">Personal Headphones</h3>
-                        <p class="item__text">Live completely in those movie moments, try to catch them!</p>
-                    </div>
-                    <div class="openair-film__item">
-                        <h3 class="item__head">City Views</h3>
-                        <p class="item__text">Our locations immerse you in the city skyline at night</p>
-                    </div>
-                    <div class="openair-film__item">
-                        <h3 class="item__head">Chairs & Cozy Blankets</h3>
-                        <p class="item__text">Lean back and relax under the night sky in the hugs of fluffy blanket</p>
-                    </div>
-                    <div class="openair-film__item">
-                        <h3 class="item__head">Iconic Movies</h3>
-                        <p class="item__text">Our program is curated with cult films, classics, and new releases</p>
-                    </div>
-                </div>
-            </div>                
-        </div>
-    </section>
+        </section>
+
+    </main>
+    <!-- подвал страницы -->
+  <footer class="page-footer">
+    footer
+  </footer>    
 </body>
 </html>
