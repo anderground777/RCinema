@@ -35,21 +35,25 @@
     font-style: normal;
     font-display: swap;
 } */
+* {
+    box-sizing: border-box;
+  }
 
-
-body {
+.page {
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
     background-color: #121521;
     color: #fff;
     width: 1920px;
     padding: 0;
     margin: 0;
 }
-
 .d-flex {
     display: flex;
 }
-
+.flex-sb {
+    justify-content: space-between;
+}
 .d-grid {
     display: grid;
 }
@@ -68,8 +72,7 @@ a, a:visited {
     color: #fff;
 }
 
-.page {
-}
+
 .page-header {
     margin-top: 56px;
     margin-bottom: 58px;
@@ -84,13 +87,13 @@ a, a:visited {
    
 }
 .mainmenu__item a {
-    
+    color: #fff;
     text-decoration: none;
-    
+    transition: color 0.2s ease;
 }
 
 .mainmenu__item a:hover {
-    color: #5d6eb1;
+    color: #B2B2D3;
   }
 .page-section {
     margin-bottom: 120px;
@@ -157,6 +160,9 @@ a, a:visited {
 .button--secondary:hover {
     background-color: #fff;
     color: #141923;
+}
+.section-cover {
+    overflow: hidden;
 }
 .section-cover__img {
    margin-left: 75px;
