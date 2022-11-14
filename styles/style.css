@@ -225,7 +225,21 @@ a, a:visited {
     line-height: 130%;
     color: #B2B2D3;
 }
+.booking {
+    background-color: #1B213A;
+    overflow: hidden;
+}
+.booking__header {
+    
+}
+.booking__img {
+    position: relative; /*right: 0; почему это не работает? я не знаю (((*/
+    left: 52px; /*пришлось костылить*/
+}
 
+.accordion-block {
+    
+}
 .accordion {
     cursor: pointer;
     padding: 18px;
@@ -236,6 +250,9 @@ a, a:visited {
     transition: 0.4s;
     background-color: #1B213A;
     color: #fff;
+    border: 2px solid #40467C;
+    margin-bottom: 20px;
+    width: 576px;
 }
 
 .active, .accordion:hover {
@@ -248,19 +265,22 @@ a, a:visited {
     color: #777;
     float: right;
     margin-left: 5px;
+    
+    
 }
 
 .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
+    
 }
-
-
 .panel {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #1B213A;
     color: #fff;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
 }
 .nextprev {
     border: none;
