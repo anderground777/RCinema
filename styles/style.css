@@ -72,7 +72,26 @@ a, a:visited {
     color: #fff;
 }
 
+.head46 {
+    font-family: 'Josefin Sans';
+    font-size: 46px;
+    font-weight: 400;
+}
 
+.head48 {
+    font-family: 'Josefin Sans';
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.main-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;    
+    color: #B2B2D3;
+
+    
+}
 .page-header {
     margin-top: 56px;
     margin-bottom: 58px;
@@ -147,7 +166,8 @@ a, a:visited {
 
 .button--primary {
     background: #40467C;    
-    margin-right: 30px;    
+    margin-right: 30px;
+    color: #fff;    
 }
 
 .button--primary:hover {
@@ -193,11 +213,6 @@ a, a:visited {
         
 }
 .benefits__head {
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 46px;
-    line-height: 46px;
     width: 427px;
     margin-left: 30px;
     margin-bottom: 0;
@@ -218,28 +233,23 @@ a, a:visited {
     font-size: 30px;
     line-height: 100%;
 }
-.item__text {
-    font-family: 'Darker Grotesque';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    color: #B2B2D3;
-}
+
 .booking {
     background-color: #1B213A;
-    overflow: hidden;
+    
 }
 .booking__header {
-    
-}
+    margin-left: 300px;
+}        
 .booking__img {
     position: relative; /*right: 0; почему это не работает? я не знаю (((*/
-    left: 52px; /*пришлось костылить*/
-}
-
-.accordion-block {
+    /* right: 0; пришлось костылить */
     
 }
+/* accordion */
+.accordion-block {
+   
+}    
 .accordion {
     cursor: pointer;
     padding: 18px;
@@ -253,6 +263,9 @@ a, a:visited {
     border: 2px solid #40467C;
     margin-bottom: 20px;
     width: 576px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
 }
 
 .active, .accordion:hover {
@@ -278,10 +291,14 @@ a, a:visited {
     display: none;
     overflow: hidden;
     background-color: #1B213A;
-    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;    
+    color: #B2B2D3;
     border: 2px solid #fff;
     margin-bottom: 20px;
 }
+
 .nextprev {
     border: none;
     display: inline-flex;
@@ -291,27 +308,97 @@ a, a:visited {
     text-decoration: none;
     cursor: pointer;
     transition: all 0.25s ease;
-    margin-bottom: 44px;
-    
+    margin-bottom: 44px;   
+    padding: 20px 24px;    
 }
+
 .prev {
-    padding: 20px 24px;
     margin-right: 28px;    
-    border: 2px solid #40467C;
-    
+    border: 2px solid #40467C;    
 }
+
 .next {
-    padding: 20px 24px;
     background: #40467C;
 }
-.gallery__gallery {
+
+.prev:hover {
+    background-color: #fff;
     
 }
 
+.next:hover {
+    background-color: #51578C;
+}
+
+.gallery__gallery {
+    
+}
+.gallery__title {
+    
+    
+}
 .gallery__gap {
     grid-template-columns: repeat(2, 1fr);
     gap: 28px 28px;
-    margin-left: 28px;
+    margin-left: 28px;    
+}
+
+.dropus {
     
 }
- 
+.dropus__title {
+    justify-content: flex-start;
+    background-color: #1B213A;
+    padding-left: 76px;
+}
+.dropus__img {
+    position: relative;
+    left: 0;
+}
+
+.dropus__send {
+    align-items: center;
+}
+input::placeholder, textarea::placeholder {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #B2B2D3;
+    opacity: 0.8;
+}
+.input {
+    width: 484px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 12px;
+    padding: 16px 20px;
+    background-color: #1B213A;
+    border: 2px solid #40467C;
+}
+
+.dropus__send--wb {
+    font-weight: 600;
+    color: #fff;
+}
+
+.of-hidden {
+    overflow: hidden;
+}
+
+textarea {
+    width: 100%;
+    height: 126px;
+    background-color: #1B213A;
+    border: none;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    color: #fff;
+    border: 2px solid #40467C;
+}
+
+.checkbox {
+    margin-right: 10px;
+    
+}
