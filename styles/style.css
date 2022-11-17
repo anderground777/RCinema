@@ -412,8 +412,13 @@ textarea {
 
 .footer-down {
     background-color: #1B213A;
+    height: 127px;
+    
 }
-
+.footer-down__wrapper {
+    position: relative;
+    top: 50%;
+}
 .footer-down__social {
     align-items: center;
 }
