@@ -402,3 +402,18 @@ textarea {
     margin-right: 10px;
     
 }
+/* footer */
+
+
+
+
+
+
+
+.footer-down {
+    background-color: #1B213A;
+}
+
+.footer-down__social {
+    align-items: center;
+}
