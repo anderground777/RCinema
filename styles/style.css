@@ -88,21 +88,23 @@ a, a:visited {
     font-style: normal;
     font-weight: 400;
     line-height: 130%;    
-    color: #B2B2D3;
-
-    
+    color: #B2B2D3;    
 }
+
 .page-header {
     margin-top: 56px;
     margin-bottom: 58px;
 }
 
 .logo {
-    margin-right: 400px;
+    margin-right: 90px;
+    width: 120px;
+    height: 27px;
 }
 .mainmenu {
    width: 706px;
    padding-left: 0;
+   margin-left: 310px;
    
 }
 .mainmenu__item a {
@@ -403,12 +405,38 @@ textarea {
     
 }
 /* footer */
+.text24400 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #B2B2D3;
+}
 
+.text22600 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 80%;
+    color: #fff;
+    margin-bottom: -15px;
+}
+.footer-up {
+    position: relative;
+    
+}
+.footer__upleft {
+   gap: 40px;
+}
 
+.upleft__item {
+    width: 240px;
+}
 
-
-
-
+.footer__upright {
+   position: absolute;
+   right: 0;
+    /* width: 410px; */
+    
+}
 
 .footer-down {
     background-color: #1B213A;
