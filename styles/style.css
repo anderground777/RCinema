@@ -465,8 +465,15 @@ textarea {
 }
 .footer-down__social {
     gap: 10px;
+    height: 60px;
 }
 
-.footer-down__social img:hover  {
-    background-color: #51578C;
+.social--bg {
+   background-color: #40467C;
+   padding: 16px 21px;
+}
+
+.social--bg:hover {
+    background: none;
+    transition: 0.2s ease;
 }
