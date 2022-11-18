@@ -468,12 +468,25 @@ textarea {
     height: 60px;
 }
 
-.social--bg {
-   background-color: #40467C;
-   padding: 16px 21px;
+/* .social--bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+} */
+
+
+.social__rectangle {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #40467C;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.social--bg:hover {
+.social__rectangle:hover {
     background: none;
     transition: 0.2s ease;
 }
