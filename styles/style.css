@@ -98,8 +98,8 @@ a, a:visited {
 
 .logo {
     margin-right: 90px;
-    width: 120px;
-    height: 27px;
+    text-align: center;
+    
 }
 .mainmenu {
    width: 706px;
@@ -167,8 +167,8 @@ a, a:visited {
   } */
 
 .button--primary {
-    background: #40467C;    
-    margin-right: 30px;
+    background: #40467C;
+    /* margin-right: 30px; */
     color: #fff;    
 }
 
@@ -177,6 +177,7 @@ a, a:visited {
 }
 .button--secondary {
     border: 2px solid #FFFFFF;
+    margin-left: 30px;
 }
 
 .button--secondary:hover {
@@ -196,8 +197,7 @@ a, a:visited {
     margin-bottom: 126px;
     position: relative;
 }
-.wrapper {
-}
+
 .benefits__videobg {
     opacity: 0.6;
 }
@@ -279,15 +279,12 @@ a, a:visited {
     font-size: 13px;
     color: #777;
     float: right;
-    margin-left: 5px;
-    
-    
+    margin-left: 5px;   
+}
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */    
 }
 
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-    
-}
 .panel {
     padding: 0 18px;
     display: none;
@@ -421,10 +418,13 @@ textarea {
 }
 .footer-up {
     position: relative;
+    height: 199px;
+    
     
 }
 .footer__upleft {
-   gap: 40px;
+   /* gap: 40px; */
+   align-items: center;
 }
 
 .upleft__item {
@@ -432,21 +432,41 @@ textarea {
 }
 
 .footer__upright {
-   position: absolute;
-   right: 0;
-    /* width: 410px; */
-    
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 410px;
+    height: 72px;  
+    border: 2px solid #40467C;
+    align-items: center;
+}
+
+.footer--input {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 16px 5px 16px 25px;
+    /* background-color: #1B213A; */
+    /* border: 2px solid #40467C; */
+    border: none;
+    background-color: #121521;
+    align-content: center;
 }
 
 .footer-down {
     background-color: #1B213A;
-    height: 127px;
+    
     
 }
 .footer-down__wrapper {
-    position: relative;
-    top: 50%;
+    height: 127px;
+    align-content: center;
+    align-items: center;
 }
 .footer-down__social {
-    align-items: center;
+    gap: 10px;
+}
+
+.footer-down__social img:hover  {
+    background-color: #51578C;
 }
