@@ -286,6 +286,7 @@ a, a:visited {
 }
 
 .panel {
+    width: 576px;
     padding: 0 18px;
     display: none;
     overflow: hidden;
