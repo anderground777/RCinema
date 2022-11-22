@@ -289,7 +289,8 @@ a, a:visited {
     margin-left: 5px;   
 }
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */    
+    content: '\02795'; /* \2796 Unicode character for "minus" sign (-) */
+    transform: rotate(45deg);    
 }
 
 .panel {
