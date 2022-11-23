@@ -276,6 +276,10 @@ a, a:visited {
     margin-top: 0;
 }
 
+.slider_img:hover {
+    opacity: 0.6;
+}
+
 .title__left {
     font-size: 28px;
     font-weight: 600; 
