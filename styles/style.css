@@ -181,8 +181,6 @@ a, a:visited {
     line-height: 43px;
     color: #B2B2D3;
 }
-.section-cover__actions  {
-}
 
 .button {
     border: none;
@@ -199,13 +197,9 @@ a, a:visited {
     cursor: pointer;
     transition: all 0.25s ease;
 }
-/* .button:focus {
-    outline: none;
-  } */
 
 .button--primary {
     background: #40467C;
-    /* margin-right: 30px; */
     color: #fff;    
 }
 
@@ -235,8 +229,9 @@ a, a:visited {
     position: relative;
 }
 
-.benefits__videobg {
+.benefits__videobg:hover {
     opacity: 0.6;
+    cursor: pointer;
 }
 .benefits__ico {
     position: absolute;
@@ -244,8 +239,12 @@ a, a:visited {
     top: 45%;
     padding: 18px 16px 18px 24px;
     background-color: #40467C;
-
 }
+
+.benefits__ico:hover {
+    background-color: #40467C;
+}
+
 .benefits__description {
     background: #1B213A;
     width: 680px;
