@@ -37,6 +37,7 @@
 } */
 * {
     box-sizing: border-box;
+    
   }
 
 .page {
@@ -84,13 +85,47 @@ a, a:visited {
     font-size: 48px;
     font-weight: 400;
     margin-top: 0;
+    margin-right: 30px;
 }
 
 .main-text {
     font-style: normal;
     font-weight: 400;
     line-height: 130%;    
-    color: #B2B2D3;    
+    color: #B2B2D3;
+    margin-top: 0;
+}
+.bold-text {
+    color: #fff;
+    font-weight: 700;
+}
+
+.text24400 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #B2B2D3;
+}
+
+.text22600 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 80%;
+    color: #fff;
+    margin-bottom: -15px;
+}
+
+.text28600 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .page-header {
@@ -242,6 +277,21 @@ a, a:visited {
     margin-top: 0;
 }
 
+.title__left {
+    font-size: 28px;
+    font-weight: 600; 
+    margin-bottom: 10px;   
+    
+}
+
+.title__right {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
 .booking {
     background-color: #1B213A;
     
@@ -256,17 +306,16 @@ a, a:visited {
     
 }
 /* accordion */
-.accordion-block {
-   
-}    
+ 
 .accordion {
+    transition: 0.5s;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    transition: 0.4s;
+    transition: 0.5s;
     background-color: #1B213A;
     color: #fff;
     border: 2px solid #40467C;
@@ -278,19 +327,24 @@ a, a:visited {
 }
 
 .active, .accordion:hover {
-    
+    border: 2px solid #fff;
 }
 
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
+    font-size: 20px;
+    color: #fff;
     float: right;
-    margin-left: 5px;   
+    margin-left: 5px;
+    transition: 0.2s; 
+
+    
 }
 .active:after {
-    content: '\02795'; /* \2796 Unicode character for "minus" sign (-) */
-    transform: rotate(45deg);    
+    content: '\02795';
+    color: #fff; 
+    transform: rotate(-135deg);
+    transition: 0.2s;    
 }
 
 .panel {
@@ -303,8 +357,9 @@ a, a:visited {
     font-weight: 400;
     line-height: 130%;    
     color: #B2B2D3;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     margin-bottom: 20px;
+    transition: 0.9s;
 }
 
 .nextprev {
@@ -392,6 +447,15 @@ input::placeholder, textarea::placeholder {
     color: #fff;
 }
 
+.customer-reviews__nav {
+    position: relative;
+    margin-left: -100px;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
 .customer-reviews__left {
     gap: 30px;
     margin-right: 30px;
@@ -429,20 +493,7 @@ textarea {
     
 }
 /* footer */
-.text24400 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #B2B2D3;
-}
 
-.text22600 {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 80%;
-    color: #fff;
-    margin-bottom: -15px;
-}
 .footer-up {
     position: relative;
     height: 199px;
